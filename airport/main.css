@@ -1,0 +1,280 @@
+body
+{
+	margin:0 auto;
+	padding:0;
+	font-family: 'Roboto',sans-serif;
+}
+.container
+{
+	margin:0 auto;
+	width: 100%;
+	max-width: 1280px;
+	background: #ebf6ff;
+}
+.container__header
+{
+	display: flex;
+	height: 200px;
+	width: 100%;
+	background: #11a3ff;
+}
+.header__logo
+{
+	width: 270px;
+	height: 200px;	
+}
+.header__menu
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 900px;
+	margin:0 auto;
+	margin-left: 0;
+}
+.header__menu a
+{
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	color:#ffffff;
+	font-size:30px;
+}
+.container__main
+{
+	margin:0 auto;
+	padding: 0;
+	padding-top:20px;
+}
+.main__about-us
+{
+	width: 1030px;
+	margin:0 auto;
+
+}
+.about-us__title
+{
+	margin: 0 auto;
+	width: 600px;
+}
+.about-us__title h2
+{
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	font-style: normal;
+}
+.about-us__left-column
+{
+	width: 600px;
+	font-style: normal;
+	font-weight: normal;
+	font-size:20px;
+}
+.about-us__flex-box
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top:20px;
+}
+.about-us__left-column{margin-top:30px;}
+.about-us__flex-box img
+{
+	width: 250px;
+	height: 250px;
+	border:3px solid grey;
+	border-radius: 10px;
+}
+.main__search
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top:30px;
+	height: 180px;
+	width: 100%;
+	background: #11a3ff;
+}
+.main__search h2
+{
+	display: inline-block;
+	margin:0 auto;
+	margin-top:10px;
+	font-size: 35px;
+	text-align: center;
+	color: #ffffff;
+}
+.main__search form	
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width:100%;
+	height:100%;
+}
+.text-inputs
+{
+	padding: 20px;
+	box-sizing: border-box;
+	outline:none;
+	width: 200px;
+	height: 60px;
+	border:1px solid grey;
+	font-size: 20px;
+}
+input:hover
+{
+	cursor: pointer;
+}
+.text-inputs::placeholder
+{
+	font-size: 17px;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing:0.05em;
+}
+.text-inputs.fifth::placeholder
+{
+	font-size: 17px;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing:0em;
+	padding-left: 0px
+}
+.text-inputs.first
+{
+	border-radius: 5px 0px 0px 5px;
+}
+.text-inputs.fifth
+{
+	position: relative;
+	border-radius: 0px 5px 5px 0px;
+}
+.text-inputs.fifth::-webkit-inner-spin-button
+{
+	position: absolute;
+	right: 5px;
+	top: 9px;
+	width:60px;
+	height:40px;
+}
+.submit-inputs
+{
+	margin-left: 60px;
+    margin-right: 20px;
+	box-sizing: border-box;
+	height: 60px;
+	width: 180px;
+	border-radius: 5px;
+	border:none;
+	background-color: #ff6930;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	outline: none;
+}
+input .submit-inputs:active
+{
+	background-color: #ed4100;
+}
+.main__discounts
+{
+	width: 100%;
+}
+.main__discounts h2
+{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+.discounts__flexbox 
+{
+	display: flex;
+	justify-content: space-around;
+}
+.discounts__flexbox img
+{
+	border-radius: 15px;
+	width:400px;
+	height: 200px;
+}
+.main__email-subscribe
+{
+	margin-top:20px;
+	height: 140px;
+	width: 100%;
+	background: #11a3ff;
+}
+.email-subscribe__form
+{
+	display: flex;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 450px;
+}
+.main__email-subscribe h2
+{
+	text-align: center;
+	font-size: 40px;
+	color:#ffffff;
+	margin-bottom: 0;
+}
+.email-subscribe__form input
+{
+
+	border:none;
+	outline:none;
+	box-sizing: border-box;
+}
+.email-subscribe__form input[type='email']
+{
+	vertical-align: middle;
+	padding-left: 40px;
+	width: 300px;
+	height: 50px;
+	border-radius: 5px 0px 0px 5px;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: normal;
+}
+.email-subscribe__form input[type='submit']
+{
+	width: 150px;
+	height: 50px;
+	margin-left: -4px;
+	border-radius: 0px 5px 5px 0px;
+	background-color: #ff6930;
+	box-sizing: border-box;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+}
+.email-subscribe__form input[type='email']::placeholder
+{
+	font-size: 25px;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing:0.0875em;
+}
+.container__footer
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: sticky;
+	bottom:0px;
+	margin-top: 50px;
+	width:100%;
+	height: 100px;
+	background: #11a3ff;
+}
+.container__footer span
+{
+	font-size: 35px;
+	font-style: normal;
+	font-weight: bold;
+	letter-spacing:0.0875em;
+	color: #ffffff;
+}

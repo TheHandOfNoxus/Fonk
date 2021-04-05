@@ -1,0 +1,105 @@
+.container__main-authification
+{
+	display: flex;
+	align-items: center;
+	margin-top: 50px;
+}
+.container__main-authification .auth__contain
+{
+	margin:0 auto;
+	width: 400px;
+    height: 250px;
+	background: #ffffff;
+	border-radius: 15px;
+}
+.container__main-authification .auth__contain .reg a
+{
+	text-decoration: none;
+}
+.container__main-authification .auth__contain .reg
+{
+	width: 155px;
+	margin:0 auto;
+}
+.container__main-authification .auth__contain form
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin:0 auto;
+	margin-top: 20px;
+	width:310px;
+	height: 200px;
+}
+.container__main-authification div form input
+{
+	width: 300px;
+	height: 50px;
+	border-radius: 10px;
+	outline: none;
+	border:1px solid gray;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+.container__main-authification div form input:last-child
+{
+	font-size: 25px;
+	font-weight: bold;
+	color: #ffffff;
+	background: #11a3ff;
+}
+/*////////////////////////////////////////////////////////////////////////*/
+
+.registration__container
+{
+	margin: 0 auto;
+	margin-top:40px;
+	width: 400px;
+    height: 430px;
+	background: #ffffff;
+	border-radius: 15px;
+}	
+.registration__container form
+{
+	display: flex;
+	flex-direction: column;
+	justify-content:space-around;
+	align-items: center; 
+	width: 400px;
+	height: 400px;
+}
+.registration__container form input
+{
+	width: 300px;
+	height: 40px;
+	border-radius: 15px;
+	border:1px solid grey;
+}
+.registration__container form input[type='text']
+{
+	box-sizing: border-box;
+	padding:20px;
+	font-size: 20px
+
+}
+.registration__container form input::placeholder
+{
+	font-size: 20px;
+}
+.registration__container form input[type='submit']
+{
+	font-size: 25px;
+	font-weight: bold;
+	color: #ffffff;
+	background: #11a3ff;
+}
+.registration__container div a
+{
+	text-decoration: none;
+}
+.registration__container div
+{
+	width:46px;
+	margin:0 auto;
+}
